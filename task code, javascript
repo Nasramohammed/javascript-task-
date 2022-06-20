@@ -1,0 +1,59 @@
+let age =27 
+console.log(age)
+
+let numberOfRabbits = 2
+let rabbits = numberOfRabbits * 3;
+console.log(rabbits);
+
+let bodmasExample = 3
+let result = (bodmasExample +5)/6;
+console.log(result);
+
+let numbers = Math.floor(Math.random() * 6) +1;
+console.log(numbers);
+
+let myCountry = "United Kingdom." 
+console.log (myCountry.length);
+
+ let favouriteFood = "Nasra"
+ let upperCaseText = favouriteFood.toUpperCase();
+console.log(upperCaseText);
+
+let myName = "Nasra"
+let myAge = 27
+let message = "Hello, my name is "  + myName + " " + "and i am " + myAge  + " " + "years old.";
+console.log (message);
+
+let firstName = "Ahmed"
+let lastName = "ali"
+let welcome = `welcome ${firstName} ${lastName},
+How can i help you?`
+console.log(welcome);
+
+
+
+
+
+
+
+function greeting() {
+    return "Hello World."
+}
+console.log(greeting());
+
+
+function quadrupler(_num){
+    
+    return _num*4
+}
+console.log(quadrupler(10*4));
+console.log(quadrupler(5*4));
+console.log(quadrupler(3*4));
+console.log(quadrupler(2*4));
+
+function Welcome(_firstName,_lastName) {
+    return `Hello ${_firstName} ${_lastName} how are you?`
+
+}
+console.log (Welcome("Nasra","Mohammed"));
+
